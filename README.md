@@ -1,20 +1,23 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# GamesOfPlayingCards
+トランプ(PlayingCards)のゲームを作成するにあたりゲームのコア部分をオープンソースとして公開します。
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Table of Contents(目次)
+* [Description(説明)](#Description(説明))
+* [Usage(使い方)](#Usage(使い方))
+* [License(ライセンス)](#License(ライセンス))
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Description(説明)
+GamesOfPlayingCardsはC#で作成された、トランプ(PlayingCards)のゲームのライブラリです。
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+現在下記のゲームに対応しています。
+* Golf
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Usage(使い方)
+各ディレクトリの「README」を参照してください。
+
+# License(ライセンス)
+GamesOfPlayingCards is licensed under MIT License.
+
+GamesOfPlayingCardsはMITライセンスで公開しています。
+
+Copyright &copy; 2019, sh-lab.net
