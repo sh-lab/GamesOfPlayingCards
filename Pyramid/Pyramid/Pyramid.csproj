@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Net.Sh_Lab.PlayingCards.Pyramid</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PlayingCards">
+      <HintPath>..\..\PlayingCards\PlayingCards\bin\Release\netstandard2.0\PlayingCards.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
