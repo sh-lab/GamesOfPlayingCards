@@ -11,6 +11,7 @@ GamesOfPlayingCardsはC#で作成された、トランプ(PlayingCards)のゲー
 
 現在下記のゲームに対応しています。
 * Golf
+* Pyramid
 
 # Usage(使い方)
 各ディレクトリの「README」を参照してください。
