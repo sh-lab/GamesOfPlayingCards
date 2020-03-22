@@ -1,9 +1,11 @@
-﻿namespace Net.Sh_Lab.PlayingCards
+﻿using System;
+
+namespace Net.Sh_Lab.PlayingCards
 {
     /// <summary>
     /// カード
     /// </summary>
-    public struct Card
+    public struct Card : IComparable<Card>
     {
 
         private int _value;
@@ -45,7 +47,7 @@
         public static readonly Card SixOfSpades = new Card(CardId.SixOfSpades);
         public static readonly Card SevenOfSpades = new Card(CardId.SevenOfSpades);
         public static readonly Card EightOfSpades = new Card(CardId.EightOfSpades);
-        public static readonly Card SpadesNine = new Card(CardId.NineOfSpades);
+        public static readonly Card NineOfSpades = new Card(CardId.NineOfSpades);
         public static readonly Card TenOfSpades = new Card(CardId.TenOfSpades);
         public static readonly Card JackOfSpades = new Card(CardId.JackOfSpades);
         public static readonly Card QueenOfSpades = new Card(CardId.QueenOfSpades);
@@ -92,5 +94,10 @@
         public static readonly Card JackOfClubs = new Card(CardId.JackOfClubs);
         public static readonly Card QueenOfClubs = new Card(CardId.QueenOfClubs);
         public static readonly Card KingOfClubs = new Card(CardId.KingOfClubs);
+
+        public int CompareTo(Card other)
+        {
+            return Id - other.Id;
+        }
     }
 }

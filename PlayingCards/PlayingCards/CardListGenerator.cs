@@ -14,7 +14,7 @@ namespace Net.Sh_Lab.PlayingCards
             Card.Joker, Card.ExtraJoker,
 
             Card.AceOfSpades, Card.TwoOfSpades, Card.ThreeOfSpades, Card.FourOfSpades, Card.FiveOfSpades,
-            Card.SixOfSpades, Card.SevenOfSpades, Card.EightOfSpades, Card.SpadesNine,Card.TenOfSpades,
+            Card.SixOfSpades, Card.SevenOfSpades, Card.EightOfSpades, Card.NineOfSpades,Card.TenOfSpades,
             Card.JackOfSpades, Card.QueenOfSpades, Card.KingOfSpades,
 
             Card.AceOfHearts, Card.TwoOfHearts, Card.ThreeOfHearts, Card.FourOfHearts, Card.FiveOfHearts,
