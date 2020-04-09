@@ -12,6 +12,7 @@ GamesOfPlayingCardsはC#で作成された、トランプ(PlayingCards)のゲー
 現在下記のゲームに対応しています。
 * Golf
 * Pyramid
+* NotFantanDomino(七並べない) ※Unity 1週間ゲームジャム お題「逆」投稿
 
 # Usage(使い方)
 各ディレクトリの「README」を参照してください。
