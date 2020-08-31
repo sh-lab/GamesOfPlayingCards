@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Net.Sh_Lab.PlayingCards.Calculation</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PlayingCards">
+      <HintPath>..\..\PlayingCards\PlayingCards\bin\Debug\netstandard2.0\PlayingCards.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
