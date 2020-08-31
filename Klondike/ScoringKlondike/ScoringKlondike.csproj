@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Klondike\Klondike.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PlayingCards">
+      <HintPath>..\..\PlayingCards\PlayingCards\bin\Release\netstandard2.0\PlayingCards.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

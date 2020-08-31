@@ -13,6 +13,7 @@ GamesOfPlayingCardsはC#で作成された、トランプ(PlayingCards)のゲー
 * Golf
 * Pyramid
 * NotFantanDomino(七並べない) ※Unity 1週間ゲームジャム お題「逆」投稿
+* Klondike
 
 # Usage(使い方)
 各ディレクトリの「README」を参照してください。
